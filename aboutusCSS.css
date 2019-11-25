@@ -2,6 +2,7 @@ body {
       color:rgb(65,75,86);
       font-family: "Gill Sans", sans-serif;
       margin: 0x;
+      background-image:url(irene-kredenets-zNsSGYXaeP8-unsplash.jpg)
 }
 div {
     min-height: 100vh;
@@ -30,16 +31,16 @@ p{
 a{
   color: rgb(0,0,0);
 }
-ol{
+ul{
   text-align: center;
   list-style: none;
   padding: 0;
+  width: 100%;
   margin-bottom: 10%;
   font-size: 2em;
   display: flex;
   justify-content: space-evenly;
 }
-
 div.contrast{
           background-color: rgb(0,0,0);
           color: rgb(255,255,255);
@@ -48,11 +49,8 @@ div.contrast{
           align-items: center;
           flex-direction: column;
 }
-ul {
-  list-style: none;
-  display: flex;
-}
 li {
+  display: inline-block;
   margin: 20px;
   transition: 0.6s ease;
 }
