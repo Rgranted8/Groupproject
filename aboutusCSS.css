@@ -1,8 +1,10 @@
 body {
-      color:rgb(65,75,86);
+      color: white;
       font-family: "Gill Sans", sans-serif;
       margin: 0x;
-      background-image:url(irene-kredenets-zNsSGYXaeP8-unsplash.jpg)
+      background-image:url(1.jpg);
+      background-attachment:scroll;
+      background-size: cover;
 }
 div {
     min-height: 100vh;
