@@ -19,3 +19,17 @@ ul {
 li {
         margin: 50px;
 }
+a:link, a:visited {
+  background-color: green;
+  color: white;
+  font-family: helvetica;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+a:hover, a:active {
+  background-color: rgb(0,200,0);
+}
