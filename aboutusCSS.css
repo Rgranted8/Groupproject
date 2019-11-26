@@ -81,11 +81,11 @@ input[type=submit]{
 border-radius: 5px;
 background-color: rgb(90,60,160);
 padding: 20px;
-margin: 0 auto;
-height: 20;
+min-height: 50px;
 }
 .center {
   margin:auto;
   width: 60%;
   justify-content: center;
+  min-height: 50px;
 }
